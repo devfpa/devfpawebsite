@@ -1,187 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>devfpa</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-        body {
-            margin: 0;
-            box-sizing: border-box;
-        }
-
-        .container {
-            line-height: 150%;
-        }
-
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px;
-            background-color: #e9e9e9;
-        }
-
-        .header h1 {
-            color: #222222;
-            font-size: 30px;
-            font-family: 'Pacifico', cursive;
-        }
-
-        .header .social a {
-            padding: 0 5px;
-            color: #222222;
-        }
-
-        .left {
-            float: left;
-            width: 180px;
-            margin: 0;
-            padding: 1em;
-        }
-
-        .content {
-            margin-left: 190px;
-            border-left: 1px solid #d4d4d4;
-            padding: 1em;
-            overflow: hidden;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-        }
-
-        li a {
-            display: block;
-            color: #000;
-            padding: 8px 16px;
-            text-decoration: none;
-        }
-
-        li a.active {
-            background-color: #84e4e2;
-            color: white;
-        }
-
-        li a:hover:not(.active) {
-            background-color: #29292a;
-            color: white;
-        }
-
-        table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-            margin: 30px 0;
-        }
-
-        td,
-        th {
-            border: 1px solid #dddddd;
-            padding: 8px;
-        }
-
-        tr:nth-child(1) {
-            background-color: #84e4e2;
-            color: white;
-        }
-
-        tr td i.fas {
-            display: block;
-            font-size: 35px;
-            text-align: center;
-        }
-
-        .footer {
-            padding: 55px 20px;
-            background-color: #2e3550;
-            color: white;
-            text-align: center;
-        }
-    </style>
-</head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <h1>Felipe de Paula Assis</h1>
-            <div class="social">
-                <a href="https://www.linkedin.com/in/devfpa/"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/devfpa"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/devfpa/"><i class="fab fa-instagram"></i></a>
-            </div>
-        </header>
-        <aside class="left">
-            <img src="/home/devlogfpa/Docs/docs/Docs/felipeassis01.jpeg" width="180px" />
-            <ul>
-                <li><a class="active" href="#home">Home</a></li>
-            </ul>
-            <br>
-            <p>Disserto e atuo sobre os impactos da IoT na sociedade pós-covid.</p>
-            </br>
-        </aside>
-        <main class="content">
-            <h2>Ponto-de-vista</h2>
-            <p>Segundo Klaus Schwab "Atualmente, enfrentamos uma grande diversidade de desafios fascinantes; entre eles,
-                o mais intenso e importante é o entendimento e a modelagem da nova revolução tecnológica, a qual implica
-                nada menos que a transformação de toda a humanidade. Estamos no início de uma revolução que alterará
-                profundamente a maneira como vivemos, trabalhamos e nos relacionamos. Em sua escala, escopo e
-                complexidade, a quarta revolução industrial é algo que considero diferente de tudo aquilo que já foi
-                experimentado pela humanidade." (in: São Paulo: Edipro, 2016. Título original: The Fourth Industrial
-                Revolution) Entendo a consistência biopsicossocial do sujeito como a prática determinista ad continuum
-                no processo de inacabada revalidação e pode doravante ser interpretada conforme conveniência semântica
-                ao fenomenico produto moral ossificado. Compreendo que os tempos hodiernos urgem por uma massa em
-                escalabilidade mundial novamente alfabetizada, desta vez na urgência das linguagens de programação.
-                E isto, dentre outras razões e paixões, me motiva a ser um Developer Backend.</p>
-            <h2>Resumo de minha história no mercado de trabalho</h2>
-            <p> Após período de uma década como funcionário genérico do comércio entre 1998 a 2008 no litoral de São
-                Paulo,
-                transitei para o mercado liberal como corretor de imóveis em lançamentos prediais pelo eixo 2008 a 2012
-                no
-                Vale do Paraiba Paulista. Por oportunidade de momento mergulhei no segmento de distribuição
-                farmaco-hospitalar
-                na região de São José dos Campos (SP) e nele me mantive entre 2012-22. Ao perceber que apesar de estar
-                situado em um parque tecnológico havia baixo investimento das empresas parceiras vinculadas com minha
-                área isso me forçou um desafio interno que me fez estudar Logística, Internet das Coisas, Python e áreas
-                correlatas em paralelo às minhas atividades profissionais. Em 2022 entrei de forma sólida no promissor
-                mercado da
-                tecnologia em sistemas de monitoramento logístico em Uberlândia (MG) e destarte vou abrindo e ampliando
-                meu portfóllio
-                conforme a
-                demanda.</p>
-            <hr><br>
-            <h2>Tenho soluções para o seu negócio! Solicite orçamento sem compromisso ;)</h2>
-            <table>
-                <tr>
-                    <th>Python <img src="/home/devlogfpa/Docs/htmlcss/python-brands.svg" width="20px" /></th>
-                    <th>Java <img src="/home/devlogfpa/Docs/htmlcss/java-brands.svg" width="20px" /></th>
-                    <th>IoT <img src="/home/devlogfpa/Docs/htmlcss/network-wired-solid.svg" width="20px" /></th>
-                </tr>
-
-                <tr>
-                    <td>Código simples para um melhor resultado.</td>
-                    <td>Otimizando soluções orientadas a objetos.</td>
-                    <td>O mundo conectado em ubiquidade.</td>
-                </tr>
-                <tr>
-            </table>
-            <form>
-                <label>Email: <input type="contato" name="devbackendfpa@gmail.com"></label><br>
-                <label>Celular: <input type="text" name="mobile"> </label><br>
-                <textarea name="comments" rows="4">Deixe sua mensagem</textarea><br>
-                <input type="submit" value="Submit" /><br>
-            </form>
-        </main>
-        <footer class="footer">&copy; devfpa</footer>
-    </div>
+    <main class="wrapper">
+        <h4>Felipe de Paula Assis</h4>
+        <h5>@devfpa</h5>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/devfpa/" target="_blanck">Linkedin</a>
+            <a href="https://github.com/devfpa" target="_blanck">Github</a>
+            <a href="https://instagram.com/devfpa" target="_blanck">Instagram</a>
+        </div>
+    </main>
 </body>
+</head>
+
+<head>
+    <meta charset="uft-8">
+    <title>Felipe de Paula Assis</title>
+    <link rel="stylesheet" href="/home/devlogfpa/Docs/DIO/pt1/aula_html_css/CSS/style.css">
+</head>
+
+
+<body>
+    <color>blue</color>
+    <header>
+        <h1 id="title">
+            <a href="https://github.com/devfpa" target="_blanck">devfpa</a>
+        </h1>
+        <h2 close="subtitle"><a href="https://www.linkedin.com/in/devfpa/" target="_blanck">Felipe de Paula Assis</a>
+        </h2>
+    </header>
+    <section>
+
+        <article class "post">
+            <header>
+                <h3>
+                    Post #1 Filosofando os impactos da IoT na sociedade pós-covid
+                </h3>
+            </header>
+            <p>
+                Segundo Klaus Schwab "Atualmente, enfrentamos uma grande diversidade de desafios
+                fascinantes; entre eles, o mais intenso e importante é o entendimento e a
+                modelagem da nova revolução tecnológica, a qual implica nada menos que
+                a transformação de toda a humanidade. Estamos no início de uma
+                revolução que alterará profundamente a maneira como vivemos,
+                trabalhamos e nos relacionamos. Em sua escala, escopo e complexidade, a
+                quarta revolução industrial é algo que considero diferente de tudo aquilo
+                que já foi experimentado pela humanidade." (in: São Paulo: Edipro, 2016. Título original: The Fourth
+                Industrial Revolution)
+
+                Dado que por questão de método dialético entendo que a consistência biopsicossocial do sujeito é prática
+                determinista fortalecida ad continuum no processo de subjetiva inacabada
+                revalidação que pode doravante ser interpretada conforme conveniência temporal por viés semântico
+                relativo ao fenomenico produto moral ossificado; compreendo que os tempos hodiernos urgem por uma massa
+                em escalabilidade mundial novamente alfabetizada, desta vez na urgência da linguagem de programação.
+            </p>
+            <img src="/home/devlogfpa/Docs/DIO/pt1/aula_html_css/programmer.jpg" width="100%">
+        </article>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="mailto:devbackendfpa@gmail.com">devbackendfpa@gmail.com</a>
+            </li>
+        </ul>
+    </footer>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+
 
 </html>
